@@ -27,20 +27,21 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
+<h3>Configuring Rolls</h3>
+
+![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/dddd7bee-3ca7-4220-8d01-ad0039a08799)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  In the osTicket documentation it defines rolls as the permissions granted to Agents per Department that they have acces to. You can set rolls and create your own on from the Admin Panel. Navigate to Agents > Rolls. The "Add New Roll" tab will allow you to create custom rolls with custom permissions.
 </p>
 <br />
 
+<h3>Configuring Departments</h3>
+
+![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/4badc448-f78c-4c30-af69-fb69d82d0336)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+  Tickets can be routed from multiple Departments through the Help Desk and different settings can be set for different departments. This can be done from the Admin Panel > Agents > Departments.
 <br />
 
 <p>
