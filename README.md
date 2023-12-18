@@ -24,6 +24,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Agents
 - Configure Customers
 - Configure SLA
+- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -58,7 +59,32 @@ This tutorial outlines the post-install configuration of the open-source help de
 ![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/470271b4-3068-4373-beb4-116f98e7cf41)
 
 <p>
-  Agents are given access to Help Desk with the intent to respond to and reslove tickets. These are your users. This can be done from Admin Panel > Agents > Agents > Add New Agent. 
+  Agents are given access to Help Desk with the intent to respond to and reslove tickets. These are your workers. This can be done from Admin Panel > Agents > Agents > Add New Agent. 
 </p>
+<br />
 
+<h3>Configuring Users(customers)</h3>
 
+![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/44fafda0-cda8-4d02-b220-aef6760a95b9)
+
+<p>
+  Unlike the steps so far, to configure Users we will have to use the Agent Panel as opposed to the Admin Panel. Go to Agent Panel > Users > Add User. These will be the accounts for the customers or whoever is going to be submitting tickets to the help desk. You can Assign a default password to Users or Agents and then prompt them to change it upon first login. 
+</p>
+<br />
+
+<h3>Configuring SLA</h3>
+
+  ![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/907b770d-2837-4ae5-b322-a7af0f7b5a41)
+
+<p>
+  SLA is the Service Level Agreement. The purpose of an SLA is to provide a timeline on which the Help Desk Admin wishes tickets to be resolved. There are usually different tiers of the SLA (Sev-A, Sev-B, Sev-C) that describe different timelines of completion based on severity. To create an SLA go to Admin Panel > Manage > SLA. 
+</p>
+<br />
+
+<h3>Configure Help Topics</h3>
+
+![image](https://github.com/GavinInSpace/post-install-config/assets/153689700/0b257097-fe54-4fe8-a9e3-6bbd2a4e7463)
+
+<p>
+  Finally, you can also create different help topics that help describe the nature of the problem and allow easy identification of what type of problem it is and maybe even the severity. This can be found in Admin Panel > Manage > Help Topics. Remember any information about these topics and more can be found in the osTicket documentation and should be referenced as much as needed. Thank you for reading and I hope this was helpful!
+</p>
